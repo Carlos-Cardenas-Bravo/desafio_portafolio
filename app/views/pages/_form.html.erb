@@ -1,0 +1,15 @@
+<!-- app/views/pages/_form.html.erb -->
+<div class="mb-3">
+    <%= label_tag :nombre, "Nombre", class: "form-label" %>
+    <%= text_field_tag :nombre, nil, class: "form-control", placeholder: "Ingrese su nombre" %>
+</div>
+<div class="mb-3">
+    <%= label_tag :asunto, "Asunto", class: "form-label" %>
+    <%= text_field_tag :asunto, nil, class: "form-control", placeholder: "Asunto del mensaje" %>
+</div>
+<div class="mb-3">
+    <%= label_tag :mensaje, "Mensaje", class: "form-label" %>
+    <%= text_area_tag :mensaje, nil, class: "form-control", rows: 8, placeholder: "Escriba su mensaje aquí" %>
+</div>
+<%= button_tag "Enviar", type: "submit", class: "btn btn-primary", 
+    data: { bs_toggle: "tooltip", bs_placement: "right", bs_custom_class: "custom-tooltip", bs_title: "Haz Clic Para Enviar Tu Mensaje" } %>

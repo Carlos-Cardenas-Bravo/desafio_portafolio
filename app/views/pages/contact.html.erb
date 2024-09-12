@@ -1,2 +1,12 @@
 <h1>Contacto</h1>
 <p>Puedes contactarme a través de este formulario.</p>
+<!-- app/views/pages/contact.html.erb -->
+<section id="Contacto" class="negro">
+    <p class="cabin-bold">CONTACTO</p>
+    <div class="linea-separadora2 mx-auto"></div>
+    <div class="mx-6 margen-movil" style="padding-bottom: 15pt;">
+        <%= form_with url: contact_path, local: true do %>
+            <%= render 'form' %>
+        <% end %>
+    </div>
+</section>
