@@ -1,0 +1,280 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mx-6 {
+    margin-left: 100pt;
+    margin-right: 100pt;
+}
+
+.cabin-regular1 {
+    font-family: "Cabin" !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16pt;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: white !important;
+    text-decoration: none;
+    vertical-align: middle;
+} 
+
+.cabin-regular2 {
+    font-family: "Cabin";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16pt;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: white;
+    text-decoration: none;
+    line-height: 25pt;
+    text-align: left;
+} 
+
+.cabin-regular3 {
+    font-family: "Cabin";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 12pt;
+    font-style: light;
+    font-variation-settings: "wdth" 100;
+    color: white;
+    text-decoration: none;
+    line-height: 20pt;
+    text-align: left;
+} 
+
+.cabin-bold {
+    font-family: "Cabin";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 35pt;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-variation-settings:"wdth" 100;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+} 
+
+/* estilo nav */
+.navbar {
+    background-color: #279da9;
+}
+
+.navbar-brand, .nav-link {
+    color: white;
+    margin-right: 5pt;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 0.5%29" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+/* estilo contenedor negro */
+.negro {
+    padding-top: 50pt;
+} 
+
+.content-box {
+    background-color: #279da9;
+    color: white;
+    padding: 0px;
+    margin-bottom: 0;
+    font-size: 15pt;
+}
+
+.content-box .text {
+    background-color: black;
+    padding: 0px;
+    font-size: 15pt;
+}
+
+.cabezal {
+    background-color: #279da9;
+    width: 100%;
+    height: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea-separadora1 {
+    width: 80%;
+    height: 1pt;
+    background-color: #0a2f33;
+    margin-bottom: 30pt;
+}
+
+.linea-separadora2 {
+    width: 90%;
+    height: 1pt;
+    background-color: #0a2f33;
+    margin-bottom: 30pt;
+}
+
+/* estilo tarjetas */
+.custom-card {
+    background-color: #279da9;
+    color: white;
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+}
+
+.custom-card .card-img-top {
+    height: 185px;
+    object-fit: cover;
+}
+
+.custom-card .card-body {
+    background-color: #279da9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+/* estilo formulario */
+.form-label {
+    color: white;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4pt;
+}
+
+.form-control::placeholder {
+    color: black;
+}
+
+/* Estilo personalizado para el botón "Ingresar al Proyecto" */
+.btn-proyecto {
+    background-color: #fea821; /* Color de fondo */
+    color: black; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para que se comporte como botón */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen alrededor del botón */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.btn-proyecto:hover {
+    background-color: white; /* Color de fondo al pasar el mouse */
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-red-bg);
+    --bs-tooltip-color: var(--bs-white);
+}
+
+/* Estilo para el footer */
+.footer {
+    background-color: #279da9;
+    color: white;
+    margin-top: 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-izquierdo {
+    font-size: 16pt;
+    font-weight: bold;
+    padding-left: 100pt;
+}
+
+.footer-derecho {
+    padding-right: 100pt;
+}
+
+.footer-derecho a {
+    color: white;
+    font-size: 20pt;
+    margin-left: 10px;
+}
+
+.footer-derecho a:hover {
+    color: #d1ecf1;
+}
+
+/* Pantallas grandes */
+@media (min-width: 768px) {
+    .margen-logo {
+        padding-left: 100pt;
+    }
+        
+    .footer-content {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        padding-left: 150pt;
+        padding-right: 150pt;
+    }
+
+    .footer-derecho a {
+        margin: 0 5pt;
+    }
+}
+
+/* Pantallas pequeñas */
+@media (max-width: 767px) {
+    .margen-logo {
+        padding-left: 10pt;
+    }
+        
+    #QuienesSomos {
+        display: none;
+    }
+
+    .margen-movil {
+        margin-left: 10pt;
+        margin-right: 10pt;
+    }
+
+    .footer {
+        padding: 10pt;
+    }
+    
+    .footer-izquierdo {
+        font-size: 15pt;
+        font-weight:lighter;
+        padding-left: 0;
+    }
+    
+    .footer-derecho {
+        padding-right: 0;
+        font-size: 20pt;
+    }
+
+}
